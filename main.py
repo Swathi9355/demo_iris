@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
 import numpy as np
+app = FastAPI()
+
 
 ml=joblib.load("C:\demo_iris\demo_iris.pkl")
 
